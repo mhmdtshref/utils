@@ -1,0 +1,42 @@
+{
+  "name": "@mhmdtshref/utils",
+  "version": "1.0.0",
+  "description": "Utils npm package for any JS app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "lint": "eslint \"**/*.ts\"",
+    "lint:fix": "eslint --fix \"**/*.ts\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmdtshref/utils.git"
+  },
+  "keywords": [
+    "utils",
+    "helpers",
+    "package",
+    "module",
+    "js",
+    "ts",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Mohamed Sharif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhmdtshref/utils/issues"
+  },
+  "homepage": "https://github.com/mhmdtshref/utils#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.1",
+    "husky": "^7.0.1",
+    "typescript": "^4.3.5"
+  }
+}
